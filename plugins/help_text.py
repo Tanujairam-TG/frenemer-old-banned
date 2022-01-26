@@ -189,15 +189,15 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('📝Rename', callback_data = "rnme"),
-                    InlineKeyboardButton('📂File To Video', callback_data = "f2v")
+                    InlineKeyboardButton('📝 ʀᴇɴᴀᴍᴇ', callback_data = "rnme"),
+                    InlineKeyboardButton('📂 ғɪʟᴇ 2 ᴠɪᴅᴇᴏ', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('📑Custom Caption', callback_data = "ccaption")
+                    InlineKeyboardButton('🎞️ ᴛʜᴜᴍʙɴᴀɪʟ', callback_data = "cthumb"),
+                    InlineKeyboardButton('📑 ᴄᴀᴘᴛɪᴏɴ', callback_data = "ccaption")
                 ],
                 [
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('💬 ᴀʙᴏᴜᴛ', callback_data = "about")
                 ]
             ]
         )
